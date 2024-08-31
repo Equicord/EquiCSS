@@ -1,0 +1,22 @@
+/**
+ * @name GeneralFixes
+ * @version 1.0.0.0
+ * @description Removes/Fixes/Updates General Related Stuff
+ * @author Thororen
+ */
+
+[class*=buttonContainer]>[class*=buttons_] {
+    transform: translateY(-50%);
+}
+
+.media-engine-video [class*=mirror_] {
+    transform: none
+}
+
+[class*='membersGroup_']:has([class^='headerContainer_']),
+[class*='openOnHover_']:has([class^='contentImage_']),
+[class^="channelAppLauncher_"],
+[class^="buttons_"]>button[class*="button_"],
+[class^="buttons_"]>div:has(div[class*="stickerButton_"]) {
+    display: none;
+}

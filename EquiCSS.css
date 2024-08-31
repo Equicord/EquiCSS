@@ -1,12 +1,11 @@
 /**
  * @name EquiCSS
  * @version 1.0.0.0
- * @description Master Build of All Our/Random CSS Fixes and Snippets
+ * @description Master Build of All The CSS Fixes and Snippets In This Repo
  * @author Thororen
  */
 
-@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/ThemesAndSnippets/ActivityFixes.css");
 @import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/ThemesAndSnippets/AndroidPlayer.css");
-@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/ThemesAndSnippets/AppLauncher.css");
-@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/ThemesAndSnippets/CameraFixes.css");
+@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/ThemesAndSnippets/GeneralFixes.css");
+@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/ThemesAndSnippets/ProfileFixes.css");
 @import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/ThemesAndSnippets/SpotifyPlayerEdits.css");

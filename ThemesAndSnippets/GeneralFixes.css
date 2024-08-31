@@ -20,7 +20,6 @@
     transform: none
 }
 
-/* Removes */
 /* Activity List Above Guild Members List */
 [class*='membersGroup_']:has([class^='headerContainer_']),
 [class*='openOnHover_']:has([class^='contentImage_']),

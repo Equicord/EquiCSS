@@ -5,8 +5,8 @@
  * @author Thororen
  */
 
-@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/ActivityFixes.css");
-@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/AndroidPlayer.css");
-@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/AppLauncher.css");
-@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/CameraFixes.css");
-@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/SpotifyPlayerEdits.css");
+@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/ThemesAndSnippets/ActivityFixes.css");
+@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/ThemesAndSnippets/AndroidPlayer.css");
+@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/ThemesAndSnippets/AppLauncher.css");
+@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/ThemesAndSnippets/CameraFixes.css");
+@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/ThemesAndSnippets/SpotifyPlayerEdits.css");

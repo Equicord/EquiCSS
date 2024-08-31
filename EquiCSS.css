@@ -1,0 +1,12 @@
+/**
+ * @name EquiCSS
+ * @version 1.0.0.0
+ * @description Master Build of All Random CSS and Our CSS Fixes / Snippets
+ * @author Thororen
+ */
+
+@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/ActivityFixes.css");
+@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/AndroidPlayer.css");
+@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/AppLauncher.css");
+@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/CameraFixes.css");
+@import url("https://raw.githubusercontent.com/Equicord/EquiCSS/main/SpotifyPlayerEdits.css");

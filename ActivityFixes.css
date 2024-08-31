@@ -1,0 +1,11 @@
+/**
+ * @name ActivityFixes
+ * @version 1.0.0.0
+ * @description Removes/Fixes/Updates Activity Related Stuff
+ * @author Thororen
+ */
+
+[class*='membersGroup_']:has([class*='headerContainer_']),
+[class*='openOnHover_']:has([alt*='App icon']) {
+    display: none;
+}

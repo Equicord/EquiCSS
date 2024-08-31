@@ -1,0 +1,10 @@
+/**
+ * @name CameraFixes
+ * @version 1.0.0.0
+ * @description Removes/Fixes/Updates Camera Related Stuff
+ * @author Thororen
+ */
+
+.media-engine-video[class*=mirror_] {
+    transform: none
+}

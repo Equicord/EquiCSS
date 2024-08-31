@@ -1,0 +1,15 @@
+/**
+ * @name ApplauncherFixes
+ * @version 1.0.0.0
+ * @description Removes/Fixes/Updates App Launcher Related Stuff
+ * @author Thororen
+ */
+
+:root {
+    --custom-channel-textarea-app-launcher-button-gap: -44px;
+}
+
+[class*='channelAppLauncher_'] {
+    display: none;
+}
+

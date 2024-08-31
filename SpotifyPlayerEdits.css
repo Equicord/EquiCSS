@@ -1,0 +1,42 @@
+/**
+ * @name SpotifyPlayerEdits
+ * @version 1.0.0.0
+ * @description Customizes The Spotify Player in Vencord PLUGIN HAS TO BE ENABLED
+ * @author Thororen
+ */
+
+#vc-spotify-player {
+    --darken-percent: 0.5;
+}
+
+#vc-spotify-player {
+    background: transparent !important;
+    position: relative;
+}
+
+#vc-spotify-player::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 200%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, var(--darken-percent)),
+            rgba(0, 0, 0, var(--darken-percent))), var(--vc-spotify-track-image);
+    background-size: cover;
+    clip-path: inset(0);
+}
+
+#vc-spotify-player+[class^="container"] {
+    background: transparent;
+}
+
+#vc-spotify-player:not(:has(#vc-spotify-album-expanded-wrapper)) #vc-spotify-album-image {
+    margin-left: -45px;
+    opacity: 0;
+}
+
+#vc-spotify-player #vc-spotify-titles {
+    margin-left: -10px;
+}

@@ -5,18 +5,32 @@
  * @author Thororen
  */
 
+/* Fix Reply Stuff AKA Move All Hover Message Buttons Up 
 [class*=buttonContainer]>[class*=buttons_] {
     transform: translateY(-50%);
 }
 
+/* Limit Bio Size */
+[class^=userPopoutInner_] [class^=blockquoteContainer_] {
+    max-height: 90px;
+}
+
+/* Camera */
 .media-engine-video [class*=mirror_] {
     transform: none
 }
 
+/* Removes */
+/* Activity List Above Guild Members List */
 [class*='membersGroup_']:has([class^='headerContainer_']),
 [class*='openOnHover_']:has([class^='contentImage_']),
+/* Message Bar App Launcher */
 [class^="channelAppLauncher_"],
+/* Gift Button */
 [class^="buttons_"]>button[class*="button_"],
-[class^="buttons_"]>div:has(div[class*="stickerButton_"]) {
+/* Sticker Button */
+[class^="buttons_"]>div:has(div[class*="stickerButton_"]),
+/* GIF Button */
+[class^="buttons_"]>div:has([aria-label="Open GIF picker"]) {
     display: none;
 }

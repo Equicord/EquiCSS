@@ -1,0 +1,40 @@
+.friends-online {
+    position: relative;
+    margin-bottom: 70px !important;
+    overflow: visible !important;
+}
+.friends-online::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    background-image: url("https://cdn.discordapp.com/avatars/144881947557101568/3966dfed9ef64656359792e34af73305.png?size=128");
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    border-radius: 25px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.friends-online:hover::before {
+    border-radius: 15px;
+}
+.friends-online::after {
+    content: "4";
+    position: absolute;
+    top: 52px;
+    right: -2px;
+    background-clip: padding-box;
+    background-color: #f04747;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .25), inset 0 1px 0 hsla(0, 0%, 100%, .15);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .25), inset 0 1px 0 hsla(0, 0%, 100%, .15);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    padding: 3px 6px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .25);
+    z-index: 1;
+}
